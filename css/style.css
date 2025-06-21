@@ -208,21 +208,29 @@ body {
 }
 
 #promotion .img1 {
+    width: 50px;
+    height: 50px;
     top: 10%;
     left: 5%;
 }
 
 #promotion .img2 {
-    top: 0%;
-    right: 20%;
+    width: 30px;
+    height: 30px;
+    bottom: 10%;
+    left: 5%;
 }
 
 #promotion .img3 {
-    bottom: 20%;
-    right: 5%;
+    width: 30px;
+    height: 30px;
+    top: 15%;
+    right: 15%;
 }
 
 #promotion .img4 {
+    width: 50px;
+    height: 50px;
     top: 30%;
     right: 0%;
 }
