@@ -1,390 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Recipes</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap"
-        rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-           <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Eudoxus+Sans:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/category.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-	<!-- Category Section -->
-	<section id="category">
-		<div class="container">
-			<div class="top-row">
-				<p>Categories</p>
-				<div class="view-all-btn btn-text">View all categories</div>
-			</div>
-			<div class="categories-grid">
-				<div class="category-item category-item-1">
-				  <img src="images/categories/cat-1.png" alt="Category 1">
-				  <div class="category-title pt-5">Breakfast</div>
-				</div>
-				<div class="category-item category-item-2">
-				  <img src="images/categories/cat-2.png" alt="Category 2">
-				  <div class="category-title pt-5">Vegan</div>
-				</div>
-				<div class="category-item category-item-3">
-				  <img src="images/categories/cat-3.png" alt="Category 3">
-				  <div class="category-title pt-5">Meat</div>
-				</div>
-				<div class="category-item category-item-4">
-				  <img src="images/categories/cat-4.png" alt="Category 4">
-				  <div class="category-title pt-5">Dessert</div>
-				</div>
-				<div class="category-item category-item-5">
-				  <img src="images/categories/cat-5.png" alt="Category 5">
-				  <div class="category-title pt-5">Lunch</div>
-				</div>
-				<div class="category-item category-item-5">
-				  <img src="images/categories/cat-6.png" alt="Category 6">
-				  <div class="category-title pt-5">Chocolate</div>
-				</div>
-			</div>
-	  </div>
-	</section>		
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eudoxus+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/category.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+  </head>
+
+  <body>
+    <!-- banner seciton start: ariful islam -->
+    <div
+      id="heroCarousel"
+      class="carousel slide hero-carousel"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row g-0 align-items-center hero-slide">
+            <div class="col-md-6">
+              <div class="badge-hot">
+                <i class="fa-solid fa-fire-flame-curved me-2"></i>Hot Recipes
+              </div>
+              <h1 class="hero-title">Spicy delicious chicken wings</h1>
+              <p class="hero-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="meta-info">
+                <div class="item">
+                  <i class="fa-solid fa-clock"></i> 30 Minutes
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-drumstick-bite"></i> Chicken
+                </div>
+              </div>
+              <div class="author-info mt-4">
+                <img src="https://i.pravatar.cc/50?img=1" alt="John Smith" />
+                <div>
+                  <strong>John Smith</strong><br />
+                  <small>15 March 2022</small>
+                </div>
+                <a href="#" class="view-recipes ms-auto"
+                  >View Recipes <i class="fa-solid fa-play ms-2"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <img
+                src="https://images.unsplash.com/photo-1552526881-721ce8509abb?q=80&w=465&auto=format&fit=crop"
+                class="hero-img"
+                alt="Food Image 1"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row g-0 align-items-center hero-slide">
+            <div class="col-md-6">
+              <div class="badge-hot">
+                <i class="fa-solid fa-fire-flame-curved me-2"></i>Hot Recipes
+              </div>
+              <h1 class="hero-title">Creamy garlic shrimp pasta</h1>
+              <p class="hero-subtitle">
+                Perfect pasta topped with creamy shrimp — your new go-to dinner
+                favorite.
+              </p>
+              <div class="meta-info">
+                <div class="item">
+                  <i class="fa-solid fa-clock"></i> 25 Minutes
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-shrimp"></i> Seafood
+                </div>
+              </div>
+              <div class="author-info mt-4">
+                <img src="https://i.pravatar.cc/50?img=2" alt="Sarah" />
+                <div>
+                  <strong>Sarah Jane</strong><br />
+                  <small>20 March 2022</small>
+                </div>
+                <a href="#" class="view-recipes ms-auto"
+                  >View Recipes <i class="fa-solid fa-play ms-2"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <img
+                src="https://images.unsplash.com/photo-1552611052-d59a0d9741bc?q=80&w=464&auto=format&fit=crop"
+                class="hero-img"
+                alt="Food Image 2"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="row g-0 align-items-center hero-slide">
+            <div class="col-md-6">
+              <div class="badge-hot">
+                <i class="fa-solid fa-fire-flame-curved me-2"></i>Hot Recipes
+              </div>
+              <h1 class="hero-title">Vegan salad power bowl</h1>
+              <p class="hero-subtitle">
+                Healthy and colorful. This power bowl is a must-try for every
+                plant lover!
+              </p>
+              <div class="meta-info">
+                <div class="item">
+                  <i class="fa-solid fa-clock"></i> 20 Minutes
+                </div>
+                <div class="item"><i class="fa-solid fa-leaf"></i> Vegan</div>
+              </div>
+              <div class="author-info mt-4">
+                <img src="https://i.pravatar.cc/50?img=3" alt="Alex" />
+                <div>
+                  <strong>Alex Roy</strong><br />
+                  <small>22 March 2022</small>
+                </div>
+                <a href="#" class="view-recipes ms-auto"
+                  >View Recipes <i class="fa-solid fa-play ms-2"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <img
+                src="https://images.unsplash.com/photo-1553909489-2542a1068437?q=80&w=465&auto=format&fit=crop"
+                class="hero-img"
+                alt="Food Image 3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bg-dark rounded-circle p-3"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon bg-dark rounded-circle p-3"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- banner section end -->
+
+    <!-- Category Section -->
+    <section id="category">
+      <div class="container">
+        <div class="top-row">
+          <p>Categories</p>
+          <div class="view-all-btn btn-text">View all categories</div>
+        </div>
+        <div class="categories-grid">
+          <div class="category-item category-item-1">
+            <img src="images/categories/cat-1.png" alt="Category 1" />
+            <div class="category-title pt-5">Breakfast</div>
+          </div>
+          <div class="category-item category-item-2">
+            <img src="images/categories/cat-2.png" alt="Category 2" />
+            <div class="category-title pt-5">Vegan</div>
+          </div>
+          <div class="category-item category-item-3">
+            <img src="images/categories/cat-3.png" alt="Category 3" />
+            <div class="category-title pt-5">Meat</div>
+          </div>
+          <div class="category-item category-item-4">
+            <img src="images/categories/cat-4.png" alt="Category 4" />
+            <div class="category-title pt-5">Dessert</div>
+          </div>
+          <div class="category-item category-item-5">
+            <img src="images/categories/cat-5.png" alt="Category 5" />
+            <div class="category-title pt-5">Lunch</div>
+          </div>
+          <div class="category-item category-item-5">
+            <img src="images/categories/cat-6.png" alt="Category 6" />
+            <div class="category-title pt-5">Chocolate</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Recipes Section -->
     <section id="recipes">
-        <div class="container">
-            <div class="section-info">
-                <h2>Simple and tasty recipes</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua enim ad minim.</p>
-            </div>
-            <div class="row">
-                <!-- Recipe 1 -->
-                <div class="col-md-4">
-                    <div class="recipe">
-                        <div class="recipe-img">
-                            <img src="images/Recipes/recipes-01.png" alt="Burger">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="recipe-info">
-                            <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-utensils"></i> Snack</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recipe 2 -->
-                <div class="col-md-4">
-                    <div class="recipe">
-                        <div class="recipe-img">
-                            <img src="images/Recipes/recipes-02.png" alt="Salmon">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="recipe-info">
-                            <h3>Fresh Lime Roasted Salmon with Ginger Sauce</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-fish"></i> Fish</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recipe 3 -->
-                <div class="col-md-4">
-                    <div class="recipe">
-                        <div class="recipe-img">
-                            <img src="images/Recipes/recipes-03.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="recipe-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recipe 4 -->
-                <div class="col-md-4">
-                    <div class="recipe">
-                        <div class="recipe-img">
-                            <img src="images/Recipes/recipes-04.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="recipe-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recipe 5 -->
-                <div class="col-md-4">
-                    <div class="recipe">
-                        <div class="recipe-img">
-                            <img src="images/Recipes/recipes-05.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="recipe-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Ads 01 -->
-                <div class="col-md-4">
-                    <div class="ads-01">
-                        <div class="ad-card">
-                            <h3>Don’t forget to eat<br>healthy food</h3>
-                            <img src="images/Ads/ads-01.png" alt="Healthy Food">
-                            <p>www.foodieland.com</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recipe 6 -->
-                <div class="col-md-4">
-                    <div class="recipe">
-                        <div class="recipe-img">
-                            <img src="images/Recipes/recipes-06.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="recipe-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recipe 7 -->
-                <div class="col-md-4">
-                    <div class="recipe">
-                        <div class="recipe-img">
-                            <img src="images/Recipes/recipes-07.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="recipe-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recipe 8 -->
-                <div class="col-md-4">
-                    <div class="recipe">
-                        <div class="recipe-img">
-                            <img src="images/Recipes/recipes-08.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="recipe-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-info">
+          <h2>Simple and tasty recipes</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+            minim.
+          </p>
         </div>
+        <div class="row">
+          <!-- Recipe 1 -->
+          <div class="col-md-4">
+            <div class="recipe">
+              <div class="recipe-img">
+                <img src="images/Recipes/recipes-01.png" alt="Burger" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="recipe-info">
+                <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-utensils"></i> Snack</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe 2 -->
+          <div class="col-md-4">
+            <div class="recipe">
+              <div class="recipe-img">
+                <img src="images/Recipes/recipes-02.png" alt="Salmon" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="recipe-info">
+                <h3>Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-fish"></i> Fish</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe 3 -->
+          <div class="col-md-4">
+            <div class="recipe">
+              <div class="recipe-img">
+                <img src="images/Recipes/recipes-03.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="recipe-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe 4 -->
+          <div class="col-md-4">
+            <div class="recipe">
+              <div class="recipe-img">
+                <img src="images/Recipes/recipes-04.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="recipe-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe 5 -->
+          <div class="col-md-4">
+            <div class="recipe">
+              <div class="recipe-img">
+                <img src="images/Recipes/recipes-05.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="recipe-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ads 01 -->
+          <div class="col-md-4">
+            <div class="ads-01">
+              <div class="ad-card">
+                <h3>Don’t forget to eat<br />healthy food</h3>
+                <img src="images/Ads/ads-01.png" alt="Healthy Food" />
+                <p>www.foodieland.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe 6 -->
+          <div class="col-md-4">
+            <div class="recipe">
+              <div class="recipe-img">
+                <img src="images/Recipes/recipes-06.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="recipe-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe 7 -->
+          <div class="col-md-4">
+            <div class="recipe">
+              <div class="recipe-img">
+                <img src="images/Recipes/recipes-07.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="recipe-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe 8 -->
+          <div class="col-md-4">
+            <div class="recipe">
+              <div class="recipe-img">
+                <img src="images/Recipes/recipes-08.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="recipe-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Promotion Section -->
     <section id="promotion">
-        <div class="container">
-            <div class="text-section">
-                <h1>Everyone can be a <br><strong>chef in their own kitchen</strong></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <button>Learn More</button>
-            </div>
-            <div class="image-section">
-                <img src="images/Ads/chef.png" alt="Chef" class="chef-img">
-                <img src="images/Ads/meat.png" class="floating-img img1" alt="Meat">
-                <img src="images/Ads/tomato.png" class="floating-img img2" alt="Tomato">
-                <img src="images/Ads/onion.png" class="floating-img img3" alt="Onion">
-                <img src="images/Ads/lettuce.png" class="floating-img img4" alt="Lettuce">
-            </div>
+      <div class="container">
+        <div class="text-section">
+          <h1>
+            Everyone can be a <br /><strong>chef in their own kitchen</strong>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button>Learn More</button>
         </div>
+        <div class="image-section">
+          <img src="images/Ads/chef.png" alt="Chef" class="chef-img" />
+          <img src="images/Ads/meat.png" class="floating-img img1" alt="Meat" />
+          <img
+            src="images/Ads/tomato.png"
+            class="floating-img img2"
+            alt="Tomato"
+          />
+          <img
+            src="images/Ads/onion.png"
+            class="floating-img img3"
+            alt="Onion"
+          />
+          <img
+            src="images/Ads/lettuce.png"
+            class="floating-img img4"
+            alt="Lettuce"
+          />
+        </div>
+      </div>
     </section>
 
     <!-- Blogs Section -->
     <section id="blogs">
-        <div class="container">
-            <div class="section-info">
-                <h2>Try this delicious recipe to make your day</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua enim ad minim.</p>
-            </div>
-            <div class="row">
-                <!-- blog 1 -->
-                <div class="col-md-4">
-                    <div class="blog">
-                        <div class="blog-img">
-                            <img src="images/blogs/blog-01.png" alt="Burger">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="blog-info">
-                            <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-utensils"></i> Snack</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- blog 2 -->
-                <div class="col-md-4">
-                    <div class="blog">
-                        <div class="blog-img">
-                            <img src="images/blogs/blog-02.png" alt="Salmon">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="blog-info">
-                            <h3>Fresh Lime Roasted Salmon with Ginger Sauce</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-fish"></i> Fish</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- blog 3 -->
-                <div class="col-md-4">
-                    <div class="blog">
-                        <div class="blog-img">
-                            <img src="images/blogs/blog-03.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="blog-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- blog 4 -->
-                <div class="col-md-4">
-                    <div class="blog">
-                        <div class="blog-img">
-                            <img src="images/blogs/blog-04.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="blog-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- blog 5 -->
-                <div class="col-md-4">
-                    <div class="blog">
-                        <div class="blog-img">
-                            <img src="images/blogs/blog-05.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="blog-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- blog 6 -->
-                <div class="col-md-4">
-                    <div class="blog">
-                        <div class="blog-img">
-                            <img src="images/blogs/blog-06.png" alt="Pancakes">
-                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
-                        </div>
-                        <div class="blog-info">
-                            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> 30 Minutes</span>
-                                <span><i class="fa fa-mug-hot"></i> Breakfast</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-info">
+          <h2>Try this delicious recipe to make your day</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+            minim.
+          </p>
         </div>
+        <div class="row">
+          <!-- blog 1 -->
+          <div class="col-md-4">
+            <div class="blog">
+              <div class="blog-img">
+                <img src="images/blogs/blog-01.png" alt="Burger" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="blog-info">
+                <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-utensils"></i> Snack</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- blog 2 -->
+          <div class="col-md-4">
+            <div class="blog">
+              <div class="blog-img">
+                <img src="images/blogs/blog-02.png" alt="Salmon" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="blog-info">
+                <h3>Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-fish"></i> Fish</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- blog 3 -->
+          <div class="col-md-4">
+            <div class="blog">
+              <div class="blog-img">
+                <img src="images/blogs/blog-03.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="blog-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- blog 4 -->
+          <div class="col-md-4">
+            <div class="blog">
+              <div class="blog-img">
+                <img src="images/blogs/blog-04.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="blog-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- blog 5 -->
+          <div class="col-md-4">
+            <div class="blog">
+              <div class="blog-img">
+                <img src="images/blogs/blog-05.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="blog-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- blog 6 -->
+          <div class="col-md-4">
+            <div class="blog">
+              <div class="blog-img">
+                <img src="images/blogs/blog-06.png" alt="Pancakes" />
+                <div class="heart-icon"><i class="fas fa-heart"></i></div>
+              </div>
+              <div class="blog-info">
+                <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                <div class="meta">
+                  <span><i class="fa fa-clock"></i> 30 Minutes</span>
+                  <span><i class="fa fa-mug-hot"></i> Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-    
- <section id="footer">
-        <div class="container">
-           
-            <div class="top-footer">
-                <div class="log">
-                    <h2>Foodieland.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
-
-                </div>
-                <div class="footer-menu">
-                    <ul>
-                        <li>Recipes</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
-                        <li>About us</li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="bottom-footer">
-                <div class="power">
-                        <h3>© 2020 Flowbase. Powered by <span style="color: brown;">Webflow</span></h3>
-                </div>
-                <div class="social-icon">
-                    
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-instagram"></i>
-                    
-                </div>
-            </div>
-
+    <section id="footer">
+      <div class="container">
+        <div class="top-footer">
+          <div class="log">
+            <h2>Foodieland.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+          </div>
+          <div class="footer-menu">
+            <ul>
+              <li>Recipes</li>
+              <li>Blog</li>
+              <li>Contact</li>
+              <li>About us</li>
+            </ul>
+          </div>
         </div>
-        
-
-
+        <div class="bottom-footer">
+          <div class="power">
+            <h3>
+              © 2020 Flowbase. Powered by
+              <span style="color: brown">Webflow</span>
+            </h3>
+          </div>
+          <div class="social-icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
 
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
