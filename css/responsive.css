@@ -1,0 +1,41 @@
+
+
+/* Mobile-first breakpoints */
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        flex-direction: column;
+        display: none;
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .nav-links li {
+        margin-bottom: 1rem;
+    }
+
+    #menu-toggle:checked + .menu-icon + .nav-links {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+}
+
+/* Tablet and up */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+    .container-1280 {
+        max-width: 1280px;
+    }
+}
