@@ -1,0 +1,176 @@
+    /* Custom CSS replacing Bootstrap */
+    body {
+      background: #f0fafd;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Grid system */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+    
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding: 0;
+    }
+    
+    /* Carousel base styles */
+    .carousel {
+      position: relative;
+    }
+    
+    .carousel-inner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .carousel-item {
+      display: none;
+      width: 100%;
+    }
+    
+    .carousel-item.active {
+      display: block;
+    }
+    
+    /* Carousel controls */
+    .carousel-control-prev,
+    .carousel-control-next {
+      position: absolute;
+      top: 50%;
+      width: 40px;
+      height: 40px;
+      background: #000;
+      border-radius: 50%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-50%);
+      z-index: 1;
+      opacity: 0.7;
+      cursor: pointer;
+    }
+    
+    .carousel-control-prev {
+      left: 15px;
+    }
+    
+    .carousel-control-next {
+      right: 15px;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+    }
+    
+    /* Your existing custom styles */
+    .hero-carousel {
+      background-color: #ccf1f8;
+      border-radius: 40px;
+      overflow: hidden;
+      margin: 40px auto;
+      max-width: 1200px;
+    }
+
+    .hero-slide {
+      padding: 60px 40px;
+    }
+
+    .badge-hot {
+      display: inline-flex;
+      align-items: center;
+      background: #fff;
+      padding: 8px 20px;
+      border-radius: 30px;
+      font-weight: 600;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    }
+
+    .hero-title {
+      font-size: 42px;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+
+    .hero-subtitle {
+      font-size: 16px;
+      color: #555;
+      margin-top: 15px;
+      max-width: 550px;
+    }
+
+    .meta-info {
+      margin-top: 25px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .meta-info .item {
+      background: #fff;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #333;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .author-info {
+      margin-top: 35px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .author-info img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .view-recipes {
+      margin-left: auto;
+      background: #000;
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 12px;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .hero-img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      
+      .hero-title {
+        font-size: 30px;
+      }
+
+      .hero-slide {
+        padding: 30px 20px;
+      }
+    }
