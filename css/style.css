@@ -452,3 +452,116 @@ body {
 .heart-icon:hover {
     background-color: #ffe2e2;
 }
+
+
+
+/* FOOTE */
+#footer {
+    padding: 80px 0;
+    background-color: #ffffff;
+  
+}
+
+#footer .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+    height: 193px;
+}
+
+#footer .container .top-footer{
+  
+
+    height: 120px;
+     border-bottom: 1px solid #0000001A;
+     display: flex;
+    justify-content: space-between;
+    line-height: 0px;
+   
+}
+#footer .container .top-footer .log h2{
+     font-family: 'Lobster', cursive;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 100%;
+      letter-spacing: 0;
+}
+#footer .container .top-footer .log p{
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0;
+}
+#footer .container .top-footer .footer-menu ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 20px;
+
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: -0.32px;
+  
+}
+#footer .container .top-footer .footer-menu ul li{
+   padding-left: 20px;
+}
+#footer .container .bottom-footer{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#footer .container .bottom-footer .power{
+    margin: 0 auto;
+    font-family: 'Eudoxus Sans', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: -0.36px;
+}
+
+#footer .container .bottom-footer .social-icon i{
+    margin-left: 10px;
+
+}
+
+
+
+
+@media (max-width: 600px) {
+    /* #footer .container {
+        height: 300px;
+    } */
+  
+  .top-footer {
+    flex-direction: column;
+    text-align: center;
+    height: 150px !important;
+    
+  }
+
+  .footer-menu {
+    margin-top: -3rem;
+    text-align: center;
+  }
+
+  .bottom-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-icon {
+    margin-top: 0.5rem;
+  }
+
+  .social-icon i {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+}
