@@ -7,18 +7,7 @@ body {
 
 
 
-
-
-
-
-
-
-
 .header {
-
-
-
-
   background-color: white !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -111,7 +100,7 @@ body {
   color: rgba(0,0,0,1);
 }
 
-/* === Hamburger (hidden on desktop) === */
+
 .hamburger {
   display: none;
   font-size: 28px;
@@ -121,7 +110,7 @@ body {
   color: #333;
 }
 
-/* === Mobile Slide-In Menu === */
+
 .nav-menu {
   position: fixed;
   top: 0;
@@ -194,7 +183,7 @@ body {
   width: 100%;
 }
 
-/* === Social Icons (inside mobile menu) === */
+
 .menu-social-icons {
   display: flex;
   gap: 18px;
@@ -214,7 +203,7 @@ body {
   filter: brightness(1.2);
 }
 
-/* === Responsive (mobile styles) === */
+
 @media (max-width: 768px) {
   .nav-desktop,
   .social-icons {
@@ -229,7 +218,6 @@ body {
     padding-right: 40px;
   }
 }
-
 
 
 
