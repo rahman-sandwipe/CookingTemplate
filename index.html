@@ -18,7 +18,74 @@
 
 <body>
 
-    <!-- Recipes Section -->
+  
+
+
+
+
+
+
+
+
+
+
+   
+
+    <header class="header">
+      <div class="container">
+    <div class="logo">
+      <h2>Foodieland<span id="log-color">.</span></h2>
+     
+     
+
+    </div>
+
+    <!-- Navigation Menu (desktop only) -->
+    <nav class="nav-desktop">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="social-icons">
+       <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+
+    <!-- Hamburger icon (mobile only) -->
+    <button class="hamburger" id="hamburger" aria-label="Open Menu">☰</button>
+  </header>
+
+  <!-- Slide-in menu (mobile) -->
+  <nav class="nav-menu" id="nav-menu">
+    <button class="close-btn" id="close-btn" aria-label="Close Menu">✖</button>
+    <ul class="menu-items">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="menu-social-icons">
+       <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </nav>
+
+
+
+</div>
+
+
+  
+
+  
+ <!-- Recipes Section -->
     <section id="recipes">
         <div class="container">
             <div class="section-info">
@@ -384,5 +451,18 @@
 
     </section>
 </body>
+ <script>
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('close-btn');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.add('active');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      navMenu.classList.remove('active');
+    });
+  </script>
 
 </html>
