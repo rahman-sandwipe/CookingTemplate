@@ -1,0 +1,82 @@
+
+
+/* Mobile-first breakpoints */
+@media (max-width: 499px) {
+	.nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        flex-direction: column;
+        display: none;
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .nav-links li {
+        margin-bottom: 1rem;
+    }
+
+    #menu-toggle:checked + .menu-icon + .nav-links {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    .image-2,.image-3{display:none}
+    .sub-email{margin:2% 10% 0 10%!important}		
+	.sub-text{padding-top:15px!important}
+	.sub-btn{background:black;padding:12px 24px;font-size:12px;color:#fff!important;top: 50%; right: 8px; transform: translateY(-50%); height:46px; border-radius: 15px;}		
+}
+@media (min-width: 500px) and (max-width: 768px)  {
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        flex-direction: column;
+        display: none;
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .nav-links li {
+        margin-bottom: 1rem;
+    }
+
+    #menu-toggle:checked + .menu-icon + .nav-links {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }    
+    .image-2,.image-3{display:none}	
+	.sub-text{padding-top:30px!important}
+	.sub-email{max-width: 400px;margin:6% 10% 0 10%}
+	.sub-btn{background:black;padding:12px 30px;font-size:12px;color:#fff!important;top: 50%; right: 8px; transform: translateY(-50%); height:46px; border-radius: 15px;}	
+}
+@media (min-width: 769px) and (max-width: 999px) {	
+	.sub-email{max-width: 400px;margin:3% 30% 0 30%}
+	.sub-btn{background:black;padding:12px 24px;font-size:12px;color:#fff!important;top: 50%; right: 8px; transform: translateY(-50%); height:46px; border-radius: 15px;}
+}
+/* Tablet and up */
+@media (min-width: 1000px) and (max-width: 1279px) {
+	.container-1280 {
+        max-width: 1280px;
+    }
+    .sub-email{max-width: 400px;margin:6% 30% 0 30%}
+	.sub-btn{background:black;padding:12px 36px;font-size:12px;color:#fff!important;top: 50%; right: 8px; transform: translateY(-50%); height:46px; border-radius: 15px;}
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+    .container-1280 {
+        max-width: 1280px;
+    }
+    .sub-email{max-width: 400px;margin:6% 30% 0 30%}
+	.sub-btn{background:black;padding:12px 36px;font-size:12px;color:#fff!important;top: 50%; right: 8px; transform: translateY(-50%); height:46px; border-radius: 15px;}
+}
